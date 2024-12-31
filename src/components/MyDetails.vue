@@ -22,13 +22,8 @@ import DarkModeSwitch from '@/components/DarkModeSwitch.vue';
         ><img alt="Instagram" src="@/assets/instagram.svg" width="30" height="30"
       /></a>
     </div>
-    <hr class="my-5" />
+    <!--    <hr class="my-5" />-->
     <!--    <DarkModeSwitch />-->
-
-    <div class="flex items-center justify-center gap-2">
-      <h2>Site in Progress</h2>
-      <img alt="Construction" src="@/assets/construction.svg" width="30" height="30" />
-    </div>
   </div>
 </template>
 

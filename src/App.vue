@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 import MyDetails from './components/MyDetails.vue';
+import { useSettingsStore } from '@/stores/settings.store.ts';
+
+const settingsStore = useSettingsStore();
 </script>
 
 <template>
   <MyDetails />
-  <!--  <RouterView />-->
+  <RouterView />
 </template>
 
 <style scoped>
