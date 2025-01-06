@@ -22,9 +22,13 @@ import DarkModeSwitch from '@/components/DarkModeSwitch.vue';
       <h3 class="font-bold">Full Stack Web Developer</h3>
     </div>
     <p>I build intricate, mobile-friendly websites and applications.</p>
-    <div class="social flex items-center justify-center my-4">
-      <a href="https://www.instagram.com/frankiemichaelwd" target="_blank"
-        ><img alt="Instagram" src="@/assets/instagram.svg" width="30" height="30"
+    <div class="social flex items-center justify-center my-4 gap-2">
+      <a href="https://www.github.com/frankiemichael" target="_blank"
+        ><img alt="GitHub" src="@/assets/github-logo.svg" width="30" height="30" /></a
+      ><a href="https://www.instagram.com/frankiemichaelwd" target="_blank"
+        ><img alt="Instagram" src="@/assets/instagram.svg" width="30" height="30" /></a
+      ><a href="https://www.linkedin.com/in/frankiemichael" target="_blank"
+        ><img alt="LinkedIn" src="@/assets/li-logo.png" width="35" height="35"
       /></a>
     </div>
     <!--    <hr class="my-5" />-->
