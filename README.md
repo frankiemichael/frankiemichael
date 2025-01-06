@@ -1,39 +1,23 @@
-# frankiemichael
+# My Portfolio 🌟
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the repository for my portfolio website, showcasing my work, skills, and projects as a developer.
 
-## Recommended IDE Setup
+## ✨ What’s Inside
+- Projects and achievements I’ve completed
+- Details about my expertise and skills
+- Links to my social profiles
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🛠️ Technology Stack
+- **Framework:** Vue 3
+- **Hosting:** GitHub Pages
 
-## Type Support for `.vue` Imports in TS
+## 📬 Connect with Me
+Feel free to connect with me through the following:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- 📧 [Email Me](mailto:frankiemichaelwd@gmail.com)
+- 🐙 [GitHub](https://www.github.com/frankiemichael)
+- 📸 [Instagram](https://www.instagram.com/frankiemichaelwd)
+- 💼 [LinkedIn](https://www.linkedin.com/in/frankiemichael)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-yarn
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-yarn dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-yarn build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
+## 🌐 Live Site
+You can check out my portfolio [here](https://yourusername.github.io/).
