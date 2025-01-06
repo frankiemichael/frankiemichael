@@ -18,11 +18,19 @@ body {
   place-items: center;
 }
 
-h1 {
+h1,h2 {
   font-weight: 500;
+  font-family: AudioWide, serif;
+}
+
+h1 {
   font-size: 2.6rem;
   line-height: 2.8rem;
-  font-family: AudioWide, serif;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 2rem;
 }
 
 h3 {
