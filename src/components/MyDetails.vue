@@ -20,6 +20,10 @@
       <h3 class="font-bold">Full Stack Web Developer</h3>
     </div>
     <div class="social flex items-center justify-center my-4 gap-2">
+      <a href="mailto:frankiemichaelwd@gmail.com"
+        ><img alt="Email" src="@/assets/email-logo.svg" width="35" height="35"
+      /></a>
+      |
       <a href="https://www.github.com/frankiemichael" target="_blank"
         ><img alt="GitHub" src="@/assets/github-logo.svg" width="30" height="30" /></a
       ><a href="https://www.instagram.com/frankiemichaelwd" target="_blank"
