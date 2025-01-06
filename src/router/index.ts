@@ -1,5 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import PortfolioView from '@/views/PortfolioView.vue';
+import LanguagesFrameworksView from '@/views/LanguagesFrameworksView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,6 +12,16 @@ const router = createRouter({
       component: HomeView,
     },
     {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: PortfolioView,
+    },
+    {
+      path: '/languagesandframeworks',
+      name: 'languagesandframeworks',
+      component: LanguagesFrameworksView,
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
@@ -18,6 +30,6 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
   ],
-})
+});
 
-export default router
+export default router;

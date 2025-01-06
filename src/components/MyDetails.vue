@@ -4,12 +4,17 @@ import DarkModeSwitch from '@/components/DarkModeSwitch.vue';
 </script>
 
 <template>
-  <div class="greetings">
+  <div class="greetings flex items-center flex-col justify-center">
     <nav>
       <div class="flex gap-2 justify-center">
-        <AppBtn class="hover:text-white text-primary">Portfolio</AppBtn>
-        <AppBtn class="hover:text-white text-primary">Frameworks</AppBtn>
-        <AppBtn class="hover:text-white text-primary">Languages</AppBtn>
+        <RouterLink to="/portfolio" class="hover:text-white text-primary flex items-center"
+          >Portfolio</RouterLink
+        >
+        <RouterLink
+          class="hover:text-white text-primary flex items-center"
+          to="/languagesandframeworks"
+          >Languages & Frameworks</RouterLink
+        >
       </div>
     </nav>
     <div class="mb-4">
