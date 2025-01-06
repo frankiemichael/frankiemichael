@@ -1,15 +1,13 @@
-<script setup lang="ts">
-import AppBtn from '@/components/AppBtn.vue';
-import DarkModeSwitch from '@/components/DarkModeSwitch.vue';
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="greetings flex items-center flex-col justify-center">
+  <div class="greetings flex items-center flex-col py-2">
     <nav>
       <div class="flex gap-2 justify-center">
-        <RouterLink to="/portfolio" class="hover:text-white text-primary flex items-center"
+        <RouterLink to="/" class="hover:text-white text-primary flex items-center"
           >Portfolio</RouterLink
         >
+        |
         <RouterLink
           class="hover:text-white text-primary flex items-center"
           to="/languagesandframeworks"
@@ -21,7 +19,6 @@ import DarkModeSwitch from '@/components/DarkModeSwitch.vue';
       <h1 class="text-sm md:text-3xl">Frankie Michael</h1>
       <h3 class="font-bold">Full Stack Web Developer</h3>
     </div>
-    <p>I build intricate, mobile-friendly websites and applications.</p>
     <div class="social flex items-center justify-center my-4 gap-2">
       <a href="https://www.github.com/frankiemichael" target="_blank"
         ><img alt="GitHub" src="@/assets/github-logo.svg" width="30" height="30" /></a
@@ -31,8 +28,10 @@ import DarkModeSwitch from '@/components/DarkModeSwitch.vue';
         ><img alt="LinkedIn" src="@/assets/li-logo.png" width="35" height="35"
       /></a>
     </div>
-    <!--    <hr class="my-5" />-->
-    <!--    <DarkModeSwitch />-->
+    <p class="text-lg">
+      Passionate full-stack developer with over 4 years experience across a range of industries
+      including aerospace, education, food hygiene and e-commerce.
+    </p>
   </div>
 </template>
 
@@ -42,5 +41,12 @@ import DarkModeSwitch from '@/components/DarkModeSwitch.vue';
 .greetings h3,
 .greetings p {
   text-align: center;
+}
+@media (min-width: 1024px) {
+  .greetings {
+    align-self: start;
+    position: sticky;
+    top: 0;
+  }
 }
 </style>

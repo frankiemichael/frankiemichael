@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h2>Languages & Frameworks</h2>
+  <h2 class="text-center">Languages & Frameworks</h2>
 
   <div class="logo-container">
     <div class="logo-group">
@@ -86,21 +86,20 @@
         >SQLite<img src="@/assets/sqlite-logo.svg" alt="SQLite" class="logo"
       /></a>
     </div>
-    <h2>Technologies & Other</h2>
-    <ul class="list-disc">
-      <li>Pinia</li>
-      <li>Browser APIs e.g. local storage</li>
-      <li>PWAs</li>
-      <li>Service workers</li>
-      <li>Websockets</li>
-      <li>Event driven development</li>
-      <li>REST APIs</li>
-      <li>SEO</li>
-      <li>Domains</li>
-      <li>Server hosting</li>
-      <li>Database hosting</li>
-      <li></li>
-    </ul>
+    <!--    <h2>Technologies & Other</h2>-->
+    <!--    <ul class="list-disc">-->
+    <!--      <li>Pinia</li>-->
+    <!--      <li>Browser APIs e.g. local storage</li>-->
+    <!--      <li>PWAs</li>-->
+    <!--      <li>Service workers</li>-->
+    <!--      <li>Websockets</li>-->
+    <!--      <li>Event driven development</li>-->
+    <!--      <li>REST APIs</li>-->
+    <!--      <li>SEO</li>-->
+    <!--      <li>Domains</li>-->
+    <!--      <li>Server hosting</li>-->
+    <!--      <li>Database hosting</li>-->
+    <!--    </ul>-->
   </div>
 </template>
 
@@ -111,9 +110,10 @@
 
 .logo-group {
   display: flex;
-  gap: 3px;
+  gap: 35px;
   flex-wrap: wrap;
   margin: 20px 0;
+  justify-content: center;
 }
 
 .logo-container hr {
@@ -123,5 +123,11 @@
 .logo-wrapper {
   text-align: center;
   font-weight: 500;
+}
+
+@media (max-width: 1023px) {
+  .logo-group {
+    gap: 5px;
+  }
 }
 </style>
