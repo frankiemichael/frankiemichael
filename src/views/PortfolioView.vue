@@ -35,8 +35,9 @@
       />www.surrealsucculents.co.uk</a
     >
     <p class="my-5 text-xl">
-      Another local business based in my hometown. They originally had a site up on Wix which after
-      seeing the site I created for Surreal Succulents, wanted to convert to Shopify.
+      A local business based in my hometown of Penzance, Cornwall, UK. This site was a conversion of
+      Wordpress to Shopify with over 1000 products. It is scoring very high on SEO and has
+      maintained it's position of 1st in Google for succulents in the UK.
     </p>
     <div>
       <img width="500" src="@/assets/ss-full.png" />
@@ -53,10 +54,10 @@
         alt="Little Green Seaweed Logo"
       />www.littlegreenseaweed.com</a
     >
+
     <p class="my-5 text-xl">
-      A local business based in my hometown of Penzance, Cornwall, UK. This site was a conversion of
-      Wordpress to Shopify with over 1000 products. It is scoring very high on SEO and has
-      maintained it's position of 1st in Google for succulents in the UK.
+      Another local business based in my hometown. They originally had a site up on Wix which after
+      seeing the site I created for Surreal Succulents, wanted to convert to Shopify.
     </p>
     <div>
       <img width="500" src="@/assets/lgs-full.png" />
