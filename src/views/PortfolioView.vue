@@ -6,7 +6,7 @@
 
   <div class="portfolio-item">
     <h2 class="mb-6">Nursery App - Laravel/Vue</h2>
-    <img src="@/assets/nurseryapp-full.png" width="500" /><span class="font-bold text-nowrap">It is currently a private application used by one company.</span> <br />
+    <img src="@/assets/nurseryapp-full.png" width="500" /><span class="font-bold">It is currently a private application used by one company.</span> <br />
     <a class="text-primary" href="https://admin.surrealsucculents.co.uk" target="_blank">admin.surrealsucculents.co.uk</a>
 
     <p class="my-5 text-xl">
