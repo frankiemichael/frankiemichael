@@ -36,6 +36,14 @@
       Passionate full-stack developer with over 4 years experience across a range of industries
       including aerospace, education, food hygiene and e-commerce.
     </p>
+    <hr class="h-px my-8 bg-white border-0 w-9/12" />
+    <p class="text-lg mt-1 mb-2">
+      I have recently entered into freelance development.<br />
+      Click the mail icon and contact me for a quote. <br />
+    </p>
+    <a href="mailto:frankiemichaelwd@gmail.com"
+      ><img alt="Email" src="@/assets/email-logo.svg" width="35" height="35"
+    /></a>
   </div>
 </template>
 
